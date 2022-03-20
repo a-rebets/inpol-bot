@@ -4,7 +4,7 @@
  *
  * Show hello world text
  *
- * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
+ * @contributors: Artem Popelyshev [@apopelyshev] <apopelyshev@gmail.com> (https://popelyshev.hashnode.dev)
  *
  * @license: MIT License
  *
@@ -17,7 +17,7 @@ import type { ModuleInterface, ModuleResponseInterface } from "@app/types/module
  *
  * Print hello-world
  *
- * @interface [ModuleInterface ModuleResponseInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/types/module.type.ts)
+ * @interface [ModuleInterface ModuleResponseInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/types/module.type.ts)
  *
  * @param {string} {text} - input string
  *

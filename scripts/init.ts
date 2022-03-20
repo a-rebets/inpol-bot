@@ -3,7 +3,7 @@
  * =====================
  * Configure telegram token and username
  *
- * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
+ * @contributors: Artem Popelyshev [@apopelyshev] <apopelyshev@gmail.com> (https://popelyshev.hashnode.dev)
  *
  * @license: MIT License
  *

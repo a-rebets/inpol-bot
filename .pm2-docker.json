@@ -1,5 +1,5 @@
 {
-	"name": "node-telegram-bot-boilerplate",
+	"name": "inpol-bot",
 	"script": "dist/core/bot.js",
 	"watch": false,
 	"max_restarts": 0,

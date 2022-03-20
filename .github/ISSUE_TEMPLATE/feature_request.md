@@ -16,8 +16,8 @@ about: Suggest an idea or new feature for this project (low priority)
 <!--
 PAID SUPPORT :
 If you need paid support with hight priority donate correct tier on:
-- https://github.com/sponsors/ptkdev
-- https://www.patreon.com/join/ptkdev
+- https://github.com/sponsors/apopelyshev
+- https://www.patreon.com/join/apopelyshev
 
-Please send me an email (support@ptkdev.io) before donation, i try provide correct price quotation for your bug or new feature.
+Please send me an email (support@apopelyshev.io) before donation, i try provide correct price quotation for your bug or new feature.
 -->

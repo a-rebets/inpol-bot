@@ -2,7 +2,7 @@
  * Database: lowdb
  * =====================
  *
- * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
+ * @contributors: Artem Popelyshev [@apopelyshev] <apopelyshev@gmail.com> (https://popelyshev.hashnode.dev)
  *
  * @license: MIT License
  *
@@ -24,7 +24,7 @@ databases.users.defaults({ users: [] }).write();
  *
  * @Context: ctx.update.message.from
  *
- * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+ * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
  *
  * @param { TelegramUserInterface } json - telegram user object
  *

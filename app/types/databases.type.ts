@@ -2,9 +2,9 @@
  * Databases Interfaces
  * =====================
  *
- * Create your telegram bot with this friendly boilerplate. Use this repository as template for your bot
+ * An app for monitoring available time slots on the INPOL system
  *
- * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
+ * @contributors: Artem Popelyshev [@apopelyshev] <apopelyshev@gmail.com> (https://popelyshev.hashnode.dev)
  *
  * @license: MIT License
  *
@@ -16,7 +16,7 @@
  *
  * @Context: ctx.update.message.from
  *
- * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+ * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
  *
  * @param { number } id - telegram
  * @param { boolean } is_bot - is user a bot
@@ -30,7 +30,7 @@ export interface TelegramUserInterface {
 	 * Telegram User Interface
 	 * =====================
 	 *
-	 * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+	 * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
 	 *
 	 * @param { number } id - telegram
 	 *
@@ -40,7 +40,7 @@ export interface TelegramUserInterface {
 	 * User Interface
 	 * =====================
 	 *
-	 * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+	 * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
 	 *
 	 * @param { boolean } is_bot - is user a bot
 	 *
@@ -50,7 +50,7 @@ export interface TelegramUserInterface {
 	 * User Interface
 	 * =====================
 	 *
-	 * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+	 * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
 	 *
 	 * @param { string } first_name - user name from telegram
 	 *
@@ -60,7 +60,7 @@ export interface TelegramUserInterface {
 	 * User Interface
 	 * =====================
 	 *
-	 * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+	 * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
 	 *
 	 * @param { string } username - user username from telegram
 	 *
@@ -70,7 +70,7 @@ export interface TelegramUserInterface {
 	 * User Interface
 	 * =====================
 	 *
-	 * @interface [TelegramUserInterface](https://github.com/ptkdev-boilerplate/node-telegram-bot-boilerplate/blob/main/app/webcomponent/types/databases.type.ts)
+	 * @interface [TelegramUserInterface](https://github.com/apopelyshev/inpol-bot/blob/main/app/webcomponent/types/databases.type.ts)
 	 *
 	 * @param { string } language_code - user code language from OS
 	 *

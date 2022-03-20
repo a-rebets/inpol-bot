@@ -2,8 +2,8 @@
 	"contributions": {
 		"language": "Italian",
 		"license": "CC BY 4.0",
-		"contributors": ["Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)"]
+		"contributors": ["Artem Popelyshev [@apopelyshev] <apopelyshev@gmail.com> (https://popelyshev.hashnode.dev)"]
 	},
-	"app_name": "node-telegram-bot-boilerplate",
+	"app_name": "inpol-bot",
 	"hello": "Ciao Mondo!"
 }
