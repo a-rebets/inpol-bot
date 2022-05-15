@@ -28,7 +28,8 @@ COPY --from=builder \
 
 RUN npm ci --production && \
     npm cache clean --force && \
-    mkdir databases
+    mkdir databases && \
+	npm install pm2 -g
 
 COPY --from=builder /app/dist dist
 
