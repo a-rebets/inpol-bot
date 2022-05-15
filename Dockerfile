@@ -1,8 +1,8 @@
 FROM node:14-alpine AS builder
 
-WORKDIR /app
+WORKDIR /inpol-bot
 
-COPY . /app
+COPY . /inpol-bot
 
 ENV LANG en_US.utf8
 
@@ -21,9 +21,9 @@ EXPOSE 8443
 WORKDIR /app
 
 COPY --from=builder \
-    /app/package.json \
-    /app/package-lock.json \
-    /app/.pm2-docker.json \
+    /inpol-bot/package.json \
+    /inpol-bot/package-lock.json \
+    /inpol-bot/.pm2-docker.json \
     ./
 
 RUN npm ci --production && \
@@ -31,7 +31,7 @@ RUN npm ci --production && \
     mkdir databases && \
 	npm install pm2 -g
 
-COPY --from=builder /app/dist dist
+COPY --from=builder /inpol-bot/dist dist
 
 RUN chown -R node:"$(id -u node)" /app
 

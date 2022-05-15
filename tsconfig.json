@@ -18,10 +18,10 @@
 		"strictFunctionTypes": true,
 		"forceConsistentCasingInFileNames": true,
 		"paths": {
-			"@databases/*": ["./database/*"],
-			"@translations/*": ["./app/translations/*"],
-			"@configs/*": ["./app/configs/*"],
-			"@app/*": ["./app/*"]
+			"@databases/*": ["databases/*"],
+			"@translations/*": ["app/translations/*"],
+			"@configs/*": ["app/configs/*"],
+			"@app/*": ["app/*"]
 		},
 		"typeRoots": ["app/**/types", "node_modules/@types"],
 		"plugins": [
