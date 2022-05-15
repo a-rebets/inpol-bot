@@ -16,7 +16,7 @@ import { argv } from "yargs";
 const certPaths = `${__dirname}/../certs`;
 
 if (!fs.existsSync(certPaths)) {
-	console.log("cert paths not found creating");
+	console.log("cert paths not found, creating");
 	fs.mkdirSync(certPaths);
 }
 const cn = argv._[0];
