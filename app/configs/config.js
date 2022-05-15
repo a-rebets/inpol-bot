@@ -7,10 +7,10 @@ module.exports = {
 	telegram: {
 		// from @botfather on telegram
 		username: "inpol_slots_bot",
-		token: process.env.BOT_TOKEN,
+		token: `${process.env.BOT_TOKEN}`,
 	},
 
-	mode: "poll", // or webhook
+	mode: "webhook", // or webhook
 	webhook: {
 		url: `${process.env.CLIENT_URL}:8443`,
 		port: 8443,
