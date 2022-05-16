@@ -20,7 +20,7 @@ module.exports = {
 	databases: { users: "databases/users.json" },
 
 	// Debug
-	debug: true,
+	debug: false,
 
 	// LOGS
 	log: {
