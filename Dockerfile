@@ -28,12 +28,13 @@ COPY --from=builder \
 
 RUN npm ci --production && \
     npm cache clean --force && \
-    mkdir databases && \
-	npm install pm2 -g
+    mkdir databases
 
 COPY --from=builder /inpol-bot/dist dist
 
 RUN chown -R node:"$(id -u node)" /app
+
+RUN sed -i 's/pidusage(pids, function retPidUsage(err, statistics) {/pidusage(pids, { usePs: true }, function retPidUsage(err, statistics) {/' ./node_modules/pm2/lib/God/ActionMethods.js
 
 USER node
 
