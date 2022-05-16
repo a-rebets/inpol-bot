@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * Launcher
  * =====================
@@ -53,6 +54,9 @@ const launchLocalTunnel = async (secretPath: string, port: number) => {
 const launchWebhook = async (): Promise<void> => {
 	const { port, url, selfSigned } = config.webhook;
 	const secretPath = `/telegraf/${bot.secretPathComponent()}`;
+
+	console.log("Here!");
+	console.log(`Working with URL ${url} an token ${config.telegram.token} ...`);
 
 	// Set telegram webhook
 	// this runs localtunnel to develop the bot on localhost
