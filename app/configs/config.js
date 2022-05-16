@@ -12,7 +12,7 @@ module.exports = {
 
 	mode: "webhook", // or webhook
 	webhook: {
-		url: `${process.env.CLIENT_URL}:8443`,
+		url: `${process.env.CLIENT_URL}`,
 		port: 8443,
 		selfSigned: false,
 	},

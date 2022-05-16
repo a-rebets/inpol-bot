@@ -55,12 +55,6 @@ const launchWebhook = async (): Promise<void> => {
 	const { port, url, selfSigned } = config.webhook;
 	const secretPath = `/telegraf/${bot.secretPathComponent()}`;
 
-	console.log("Here!");
-	console.log(`Working with URL ${url} an token ${config.telegram.token} ...`);
-
-	// Set telegram webhook
-	// this runs localtunnel to develop the bot on localhost
-	// acts as a reverse proxy for telegrm calls to our websocket
 	const webhookUrl = url;
 	if (config.debug) {
 		return launchLocalTunnel(secretPath, port);
