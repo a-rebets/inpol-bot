@@ -10,6 +10,8 @@ import * as hears from "@app/functions/hears";
  * @license: MIT License
  *
  */
+process.on("SIGINT", () => process.exit(0));
+
 (async () => {
 	await command.quit();
 	await command.start();
